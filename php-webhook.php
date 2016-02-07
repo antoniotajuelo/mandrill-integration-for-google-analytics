@@ -7,9 +7,9 @@ if(count(json_decode($_POST['mandrill_events'])) > 0) {
     $url = 'http://www.google-analytics.com/collect?';
     $fields = array(
       'v'   => 1,
-      'tid' => 'UA-18092296-4',                    // REPLACE with your Google Analytics web property UA code
+      'tid' => 'UA-XXXXXXXX-Y',                    // REPLACE with your Google Analytics web property UA code
       'cid' => time() . '-' . rand(100000,999999),
-      'dh'  => 'www.nyusu.fm',                     // REPLACE with your website domain or delete this line
+      'dh'  => 'www.example.com',                  // REPLACE with your website domain or delete this line
       't'   => 'event',
       'ec'  => 'email',
       'ea'  => $event->event,

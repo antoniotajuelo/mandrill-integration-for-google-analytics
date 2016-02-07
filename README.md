@@ -70,5 +70,5 @@ Install [this Google Analytics custom report](https://analytics.google.com/analy
 In case your web application uses different e-mail types and you want to segment your data based on this dimension or you want to take advantage of the Universal Analytics user_id feature, please set your application to be pass the email_type and/or user_id metadata fields to Mandrill at the time of sending new e-mails.
 
 ## Additional Resources
-* Google Analytics Measurement Protocol Parameter Reference: https://developers.google.com/analytics/devguides/collection/protocol/v1/parameters
-* Mandrill API Message Event Webhook Format: https://mandrill.zendesk.com/hc/en-us/articles/205583307-Message-Event-Webhook-Format
+* [Google Analytics Measurement Protocol Parameter Reference](https://developers.google.com/analytics/devguides/collection/protocol/v1/parameters)
+* [Mandrill API Message Event Webhook Format](https://mandrill.zendesk.com/hc/en-us/articles/205583307-Message-Event-Webhook-Format)
