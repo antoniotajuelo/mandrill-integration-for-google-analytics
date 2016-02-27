@@ -27,7 +27,7 @@ Universal Analytics **user_id** feature is also supported.
 
 ## Example
 
-{{Screenshot, to be added}}
+![Google Analytics Example](image/google-analytics-example.png)
 
 ## How to set up
 
